@@ -66,7 +66,7 @@ public class Main {
         System.out.println("99.9999% " + latencies[((int) (latencies.length * 0.999999))]);
         System.out.println("Max " + latencies[latencies.length - 1]);
 
-        int total = 0;
+        long total = 0;
         for(int i=0; i<latencies.length; i++) {
             total += latencies[i];
         }
